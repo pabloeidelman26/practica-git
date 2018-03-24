@@ -1,0 +1,48 @@
+
+which git  //para ver si está instalado
+
+git config --global user.name "{nombre}" //configuracion que sera vista por otros usuarios al hacer cambios
+
+git config --global user.email {email} //configuracion que sera vista por otros usuarios al hacer cambios
+
+mkdir // crea directorio
+
+mkdir -p repos/{nombre del repo} //crea repositorio
+
+ls //lista contenido
+
+git init // incializa el repo para git (master)=default git branch
+
+clear //limpia pantalla
+
+q // salir
+
+git status // estado del repositorio
+
+git add <archivo> // para incluir en Stage lo que luego se va a hacer commit
+
+git add -A // agrega todos los archivos del directorio
+
+git commit // pasa de Stage a Local Repository
+
+git commit -m "{mensaje}" // agrega mensaje al commit
+
+git commit -am // combina add con commit
+
+git log // muestra un log de los commits echos al Repository
+
+git log -p // muestra el log con los diffs
+
+echo "{texto}" > <archivo> //agrega texto a un archivo (ojo, borra lo que había en el archivo anteriormente)
+
+cat <archivo> // veo lo que hay en ese archivo
+
+git diff // veo diferencias que se agregaron al archivo(unstaged) y lo que estaba en commit
+
+git remote add origin https://github.com/{nombre de usuario}/{nombre de repo}.git // crea el repo en github
+
+git push -u origin master // sube nuestro repo local al github como master
+
+curl -o {directorio}/{archivo} -OL {url} // descarga un archivo de la url en ese directorio
+
+
