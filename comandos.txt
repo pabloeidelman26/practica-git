@@ -39,6 +39,8 @@ echo "{texto}" > <archivo> //agrega texto a un archivo (ojo, borra lo que había 
 
 cat <archivo> // veo lo que hay en ese archivo
 
+tail <archivo> // muestra la última parte del archivo
+
 cp {nombre de archivo original} {nombre de archivo nuevo} // copia un archivo en uno nuevo
 
 git diff // veo diferencias que se agregaron al archivo(unstaged) y lo que estaba en commit
@@ -54,3 +56,12 @@ curl -o {directorio}/{archivo} -OL {url} // descarga un archivo de la url en ese
 git checkout -b {nombre del branch} // creo un branch y me paro en el branch
 
 git branch // veo los branches que hay en el proyecto
+
+git checkout -f // vuelve a un estado anterior
+
+git checkout <hash> // vuelve a ese punto del log
+
+git branch -d {nombre del branch} // borra el branch si fue mergeado
+
+git branch -D {nombre del branch} // borra el branch
+
