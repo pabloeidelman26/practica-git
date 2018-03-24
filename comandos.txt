@@ -43,6 +43,8 @@ cp {nombre de archivo original} {nombre de archivo nuevo} // copia un archivo en
 
 git diff // veo diferencias que se agregaron al archivo(unstaged) y lo que estaba en commit
 
+git diff {nombre del branch} //veo diferencias entre el branch que estoy parado y el que especifico 
+
 git remote add origin https://github.com/{nombre de usuario}/{nombre de repo}.git // crea el repo en github
 
 git push -u origin master // sube nuestro repo local al github como master
