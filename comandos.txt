@@ -15,7 +15,7 @@ git init // incializa el repo para git (master)=default git branch
 
 clear //limpia pantalla
 
-q // salir
+:q // salir
 
 && // combina dos comandos de git por ej. git add -A && git commit -m {descripcion}
 
