@@ -51,6 +51,8 @@ git remote add origin https://github.com/{nombre de usuario}/{nombre de repo}.gi
 
 git push -u origin master // sube nuestro repo local al github como master
 
+git push -u origin {nombre del branch} // sube nuestro repo local al github como branch
+
 curl -o {directorio}/{archivo} -OL {url} // descarga un archivo de la url en ese directorio
 
 git checkout -b {nombre del branch} // creo un branch y me paro en el branch
