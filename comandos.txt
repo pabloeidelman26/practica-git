@@ -17,6 +17,8 @@ clear //limpia pantalla
 
 q // salir
 
+&& // combina dos comandos de git por ej. git add -A && git commit -m {descripcion}
+
 git status // estado del repositorio
 
 git add <archivo> // para incluir en Stage lo que luego se va a hacer commit
