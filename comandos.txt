@@ -55,6 +55,8 @@ curl -o {directorio}/{archivo} -OL {url} // descarga un archivo de la url en ese
 
 git checkout -b {nombre del branch} // creo un branch y me paro en el branch
 
+git checkout {nombre del branch} // me voy a ese branch
+
 git branch // veo los branches que hay en el proyecto
 
 git checkout -f // vuelve a un estado anterior
